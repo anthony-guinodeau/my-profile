@@ -1,0 +1,50 @@
+body {
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+  width: 700px; /* set the width of your container */
+  margin: 40px auto; /* set margins: top/bottom: 40px; left/right: automatic */
+}
+
+.card-white {
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.1);
+  border: 1px solid lightgrey;
+  margin: 20px;
+  padding: 30px;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.list-inline {
+  list-style: none; /* kill the bullet points */
+  padding-left: 0px; /* kill remaining padding left */
+}
+.list-inline > li {
+  display: inline; /* change list item behavior to inline */
+  padding: 0px 20px; /* add som left/right padding between list items */
+}
+
+.color-grey {
+  color:grey;
+}
+
+.color-green {
+  color:green;
+}
+
+.button {
+  background-color: #9400D3; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
